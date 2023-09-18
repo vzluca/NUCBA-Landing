@@ -1,14 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fafafa;
+    margin: 0%;
+    padding: 0%;
+    background: -webkit-linear-gradient(to right, #9ddda9, #f6fca3);
+    background: linear-gradient(to right, #9ddda9, #f6fca3);
 }
 
 
 header {
-    background-color: #111111;
+    background-color: #000000;
     padding-top: 1rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
@@ -26,34 +27,177 @@ nav {
 nav .logo {
     display: flex;
     align-items: center; 
-    padding-left: 2rem;
+    padding-left: 3.9rem;
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
 }
 
 
 nav .logo img {
-    height: 2rem;
+    height: 1.3rem;
     width: auto;
 }
 
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding-right: 2rem;
+    margin: 0%;
+    padding-right: 3.5rem;
     display: flex;
+    font-size: 1rem;
 }
 
 
 nav a {
     text-decoration: none;
-    color: #fff;
-    font-size: 1.1rem;
+    color: #ffffff;
+    font-size: 1rem;
     padding: 1.4rem;
 }
 
 
 nav a:hover {
-    background-color: #b91818;
+    color:#FF8623
+}
+
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 3rem;
+    width: 80rem;
+    margin:0px auto;
+}
+
+
+.descripcion-hero {
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+
+.descripcion-hero h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}
+
+
+.descripcion-hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+
+.img-hero {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-bottom: #000000;
+    border: thin;
+}
+
+
+#botones-hero {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.boton1-hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.boton1-hero a {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 28px;
+    box-shadow: 0 2rem 3rem -2rem #161616;
+}
+
+
+.boton1-hero a:hover {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    background-color: #000000;
+    color: #FF8623;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 35px;
+    box-shadow: 0 2rem 3rem -2rem #161616;
+}
+
+
+.boton2-hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.boton2-hero a {
+    color: #000000;
+    background-color: none;
+    text-decoration: none;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-inline: medium;
+    border-style: solid;
+    border-color:  #000000;
+    border-radius: 28px;
+    box-shadow: 0 2rem 3rem -2rem #161616;
+}
+
+
+.boton2-hero a:hover {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: none;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-inline: medium;
+    border-style: solid;
+    border-color:  #FF8623;
+    border-radius: 35px;
+    box-shadow: 0 2rem 3rem -2rem #161616;
+}
+
+
+.descripcion2-hero p {
+    font-size: 1.2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 
