@@ -9,7 +9,6 @@ body { /* ----------------------------------------------------------------------
 
 
 
-
 header { /* --------------------------------------------------------------------------- Portada */
   background-color: #000000;
   padding-top: 1rem;
@@ -287,7 +286,7 @@ margin-bottom: 3rem;
     align-items: center;
     width: 100%;
     gap: 2rem;
-    background-color: #f3f3f3;
+    background-color: #f0f0f0;
   }
 
   .nombre-contacto p {

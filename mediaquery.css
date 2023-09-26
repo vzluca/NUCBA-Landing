@@ -1,0 +1,386 @@
+ /* -------------------------------------------------------------------------------------- TABLET */
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  
+  body {
+    background-repeat: no-repeat;
+  }
+
+  .main { /* ---------------------------------------------------------------------------- Main */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+
+
+
+  #hero { /* ---------------------------------------------------------------------------- Hero */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
+    
+  .descripcion-hero {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 88%;
+  }
+
+  .img-hero {
+    justify-content: center;
+    width: 95%;
+  }
+
+  #botones-hero {
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+  }
+
+
+
+
+  nav { /* ------------------------------------------------------------------------------ Navbar */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  nav .logo {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+  }
+  
+  nav .logo img {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+
+
+  .cards-section { /* ------------------------------------------------------------------- Cards */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3rem;
+    }
+
+
+
+
+  .contacto { /* ------------------------------------------------------------------ Contacto */
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+ .nombre-contacto p {
+  display: block;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 75%;;
+}
+
+.contacto-info {
+  display: block;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.contacto-info h2 {
+  display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+}
+
+.row-items {
+  display: flex;
+  justify-content: center;
+    width: 75%;
+}
+
+.redes-contacto img {
+  margin-bottom: 4rem;
+  justify-content: center;
+  align-self: center;
+  width: 8%;
+}
+
+.redes-contacto {
+  justify-content: center;
+  align-self: center;
+  width: 75%;
+}
+
+.img-contacto {
+  display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+.footer { /* -------------------------------------------------------------------------- Footer */
+  display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.footer img {
+    justify-content: center;
+}
+
+
+
+
+} 
+  
+
+
+
+  /* -------------------------------------------------------------------------------------- CELULAR */
+
+  @media (min-width: 125px) and (max-width: 767px) {
+
+    body {
+      background-repeat: no-repeat;
+    }
+  
+    .main { /* ---------------------------------------------------------------------------- Main */
+      text-align: center;
+      width: 100%;
+    }
+  
+  
+  
+  
+    #hero { /* ---------------------------------------------------------------------------- Hero */
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 88%;
+      margin: 0;
+    }
+      
+    .descripcion-hero {
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem;
+      width: 83%;
+    }
+
+    .descripcion2-hero p {
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem;
+    }
+  
+    .img-hero {
+      display: block;
+      width: 60%;
+      height: auto;
+    }
+  
+    #botones-hero {
+      justify-content: center;
+      width: 100%;
+      padding: 0%;
+    }
+  
+  
+  
+  
+    nav { /* ------------------------------------------------------------------------------ Navbar */
+      display: flex;
+      justify-content: center;
+      width: 80%;
+    }
+  
+  
+  
+  
+    .cards-section { /* ------------------------------------------------------------------- Cards */
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+      
+    .cards-titulo {
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem;
+      width: 83%;
+      padding: 0;
+    }
+
+    .cards-titulo h2 {
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding-top: 3rem;
+    }
+
+    .cards-titulo p {
+      font-size: 1.2rem;
+      margin-top: 0;
+   }
+  
+    .cards-beneficios {
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+      margin-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+    .card-container {
+      display: block;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      margin-bottom: 3rem;
+    }
+
+    .card img {
+      width: 15%;
+      height: auto;
+      border-radius: 8px 8px 0 0;
+    }
+  
+  
+  
+  
+    .contacto { /* ------------------------------------------------------------------ Contacto */
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .nombre-contacto p {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+   }
+  
+    .contacto-info {
+      display: block;
+      justify-content: center;
+      text-align: center;
+      width: 80%;
+      padding: 0%;
+      margin: 3.5rem;
+   }
+  
+    .contacto-info h2 {
+      display: block;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+  }
+  
+    .row-items {
+      display: block;
+      justify-content: center;
+      width: 100%;
+  }
+  
+    .redes-contacto img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 4rem;
+      width: 30%;
+  }
+  
+    .redes-contacto {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      width: 80%;
+      margin-left: 4rem
+  }
+  
+    .img-contacto {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-bottom: 3rem;
+  }
+  
+  
+  
+   
+    .footer { /* -------------------------------------------------------------------------- Footer */
+      display: block;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      margin-top: -60px;
+  }
+  
+    .footer img {
+      justify-content: center;
+  }
+  
+}
