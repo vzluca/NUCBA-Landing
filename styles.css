@@ -277,31 +277,70 @@ margin-bottom: 3rem;
     font-size: 1.2rem;
     color: #000000;
 }
-  
 
-  
 
  
+
  .contacto { /* ------------------------------------------------------------------ Contacto */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 30px;
-    background-color: #ebebeb;
+    gap: 2rem;
+    background-color: #f3f3f3;
+  }
+
+  .nombre-contacto p {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .contacto-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 30px;
+    text-align: start;
     width: 50%;
+    padding-left: 6.5rem;
+    padding-top: 1rem;
   }
-  
+
+  .contacto-info h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .row-items {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .row-items img {
+    width: 2rem;
+    height: auto;
+    padding-right: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .row-items label {
+    margin-top: 0.4rem;
+  }
+
+  .redes-contacto img {
+    width: 8%;
+    height: auto;
+    padding-top: 5rem;
+    padding-right: 1.5rem;
+  }
+
   .img-contacto {
     width: 50%;
   }
+
+
 
 
 .footer { /* -------------------------------------------------------------------------- Footer */
