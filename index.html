@@ -1,80 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet"/>
-    <title>Landing Page</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+  <title>Landing Page</title>
+</head>
 
 
-  <body>
+<body>
 
-    <header>
-      <nav>
-        <div class="logo">
-            <img src="./img/logo.png" alt="logo">
-        </div>
-         <ul class="nav-links">
-             <li><a href="#">Inicio</a></li>
-             <li><a href="#">Noticias</a></li>
-             <li><a href="#">Productos</a></li>
-             <li><a href="#">Ofertas</a></li>
-             <li><a href="#">Playlist</a></li>
-             <li><a href="#">Contacto</a></li>
-         </ul>
-       </nav>
-    </header>
+  <header> <!-- ----------------------------------------------------------------------------NAVBAR-------------- -->
+    <nav>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Playlist</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    
-    <main class="portada">
-      <div id="hero">
 
-        <div class="descripcion-hero">
+  <main class="portada"> <!-- ---------------------------------------------------------------HERO-------------- -->
+    <div id="hero">
 
-          <h2>VIRTUAL DJ<br>INDIE VERSION</h2>
-          <p>
-            Bienvenidx a la página que tiene toda la música que te encanta, soy tu DJ indie. Estoy para ser tu radio personal y acompañarte 24 hs con buena música
-          </p>
+      <div class="descripcion-hero">
 
-          <div id="botones-hero">
+        <h2>RADIO INDIE<br>TU RADIO FAVORITA</h2>
+        <p>
+          Bienvenidx a la página que tiene toda la música que
+          te encanta. ¡Estamos para ser
+          tu radio personal y acompañarte las 24 hs con la
+          mejor música!
+        </p>
+
+        <div id="botones-hero">
 
           <div class="boton1-hero">
             <a id="active" href="#">RADIO EN VIVO</a>
           </div>
 
           <div class="boton2-hero">
-            <a href="#">ÚLTIMAS NOTICIAS</a>
+            <a href="#">TIENDA</a>
           </div>
 
         </div>
 
+      </div>
+
+
+      <div class="img-hero">
+        <img src="./img/portada.png" alt="img-portada" width="auto" height="500rem">
+      </div>
+
+
+    </div>
+
+    <div class="descripcion2-hero">
+      <p>
+        Nuestra radio es la primera exclusivamente de música
+        R&B, Indie pop, Indie rock, Pop rock, Alternativo, etc.
+        Además, tenemos una tienda para que puedas conseguir su
+        merch y su discografía, ¡TODO EN EL MISMO LUGAR!
+      </p>
+    </div>
+
+
+    
+    <section class="cards-section"> <!-- -----------------------------------------------------CARDS--------------- -->
+
+      <div class="cards-beneficios">
+
+        <div class="cards-titulo">
+          <h2>Nuestros beneficios</h2>
+          <p>Si te copa esto que tenemos para vos, ¡suscribite ya mismo!</p>
         </div>
 
+        <div class="card-container">
 
-        <div class="img-hero">
-          <img src="./img/portada.png" alt="img-portada" width="auto" height="500rem">
+          <div class="card">
+            <img src="./img/auriculares.png" alt="auriculares">
+              <div class="card-descipcion">
+                  <h2>MÚSICA SIN ANUNCIOS</h2>
+                  <p>Disfrutá de la radio sin ningún anuncio, podrás
+                    escuchar sin interrupciones tu música favorita</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="./img/descuentos.png" alt="bolsa de compras">
+              <div class="card-content">
+                  <h2>DESCUENTOS EXCLUSIVOS</h2>
+                  <p>Aprovechá los mejores descuentos del mercado,
+                    tanto en la discografía como también en merchandising
+                    de tus bandas y artistas favoritos</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="./img/regalos.png" alt="regalo">
+              <div class="card-content">
+                  <h2>REGALOS INCREÍBLES</h2>
+                  <p>¡Tan sólo por estar suscriptx vas a estar
+                  participando de todos los sorteos que hagamos!
+                  <br>Podés ganar entradas a recitales,
+                  shows en vivo y merch oficial</p>
+              </div>
+
+          </div>
+
         </div>
+  
+      </div>
 
+    </section>
+
+
+
+    <section class="contacto"> <!-- ----------------------------------------------------CONTACTO------------------ -->
+
+        <div class="contacto-info">
+          <h2>CONTACTATE CON NOSOTROS</h2>
+
+          <div class="nombre_contacto">
+              <p>RADIO INDIE</p>
+          </div> 
+
+          </div>
+            <img class="img-contacto" src="./img/contacto.png" alt="merch"/>
+          </div>
+
+        </div>
 
       </div>
 
-      <div class="descripcion2-hero">
-        <p>
-          Nuestra radio es la primera exclusivamente de música R&B, Indie pop, Indie rock, Pop rock, Alternativo, etc. Además, subimos noticias de tus bandas favoritas para que te enteres de las últimas novedades y tenemos una tienda para que puedas comprar su merch<br>¡TODO EN EL MISMO LUGAR! 
-        </p>
-      </div>
-    </main>
+    </section>
 
 
-  </div>
+  </main>
+
+
+    <section class="footer"> <!-- --------------------------------------------------------FOOTER------------------ -->
+      <footer>
+       <img src="./img/logo.png" alt="logo">
+      </footer>
+    </section>   
 
 
 
-
-  </body>
+</body>
 
 
 </html>
